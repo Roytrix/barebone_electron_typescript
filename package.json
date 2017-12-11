@@ -1,0 +1,31 @@
+{
+  "name": "stats-electron-cpp",
+  "version": "0.0.1",
+  "description": "barebone electron typescript",
+  "main": "main.ts",
+  "scripts": {
+    "build": "tsc",
+    "lint": "tslint -c tslint.json -p tsconfig.json",
+    "start": "npm run build && electron ./dist/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Roytrix/stats-electron-cpp.git"
+  },
+  "keywords": [
+    "Electron",
+    "c++",
+    "typescript"
+  ],
+  "author": "Roytrix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Roytrix/stats-electron-cpp/issues"
+  },
+  "homepage": "https://github.com/Roytrix/stats-electron-cpp#readme",
+  "devDependencies": {
+    "electron": "^1.7.9",
+    "tslint": "^5.8.0",
+    "typescript": "^2.6.2"
+  }
+}

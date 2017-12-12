@@ -1,16 +1,23 @@
 {
+    "compileOnSave": true,
     "compilerOptions": {
+        "target": "es2015",
         "module": "commonjs",
+        "moduleResolution": "node",
         "noImplicitAny": true,
         "strict": true,
-        "strictNullChecks": true,
+        "strictNullChecks": false,
         "strictFunctionTypes": false,
         "experimentalDecorators": false,
+        "allowSyntheticDefaultImports": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "skipLibCheck": true,
         "removeComments": true,
+        "pretty": true,
         "sourceMap": true,
         "outDir": "dist",
         "baseUrl": ".",
-        "target": "es2015",
         "paths": {
             "*": [
                 "node_modules/*"

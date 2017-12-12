@@ -1,5 +1,5 @@
 {
-  "name": "stats-electron-cpp",
+  "name": "barebone_electron_typescript",
   "version": "0.0.1",
   "description": "barebone electron typescript",
   "main": "main.ts",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Roytrix/stats-electron-cpp.git"
+    "url": "git+https://github.com/Roytrix/barebone_electron_typescript.git"
   },
   "keywords": [
     "Electron",
@@ -20,12 +20,15 @@
   "author": "Roytrix",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Roytrix/stats-electron-cpp/issues"
+    "url": "https://github.com/Roytrix/barebone_electron_typescript/issues"
   },
-  "homepage": "https://github.com/Roytrix/stats-electron-cpp#readme",
+  "homepage": "https://github.com/Roytrix/barebone_electron_typescript#readme",
   "devDependencies": {
     "electron": "^1.7.9",
     "tslint": "^5.8.0",
     "typescript": "^2.6.2"
+  },
+  "dependencies": {
+    "electron": "^1.7.9"
   }
 }

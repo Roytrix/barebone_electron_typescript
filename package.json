@@ -24,11 +24,10 @@
   },
   "homepage": "https://github.com/Roytrix/barebone_electron_typescript#readme",
   "devDependencies": {
-    "electron": "^1.7.9",
     "tslint": "^5.8.0",
     "typescript": "^2.6.2"
   },
   "dependencies": {
-    "electron": "^1.7.9"
+    "electron": "^1.7.10"
   }
 }
